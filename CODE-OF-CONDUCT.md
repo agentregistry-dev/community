@@ -1,5 +1,7 @@
 # Agentregistry Community Code of Conduct
 
+_Version: v1.0 (March 2026)_
+
 ## CNCF Code of Conduct
 All members of the agentregistry community must abide by the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/main/code-of-conduct.md). Only by respecting one another can we build a strong and collaborative community. For more information about this Code of Conduct, please see the [CNCF Code of Conduct Frequently Asked Questions](https://www.cncf.io/conduct/faq/).
 
