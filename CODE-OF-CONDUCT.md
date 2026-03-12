@@ -1,0 +1,25 @@
+# Agentregistry Community Code of Conduct
+
+_Version: v1.0 (March 2026)_
+
+## CNCF Code of Conduct
+All members of the agentregistry community must abide by the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/main/code-of-conduct.md). Only by respecting one another can we build a strong and collaborative community. For more information about this Code of Conduct, please see the [CNCF Code of Conduct Frequently Asked Questions](https://www.cncf.io/conduct/faq/).
+
+
+## Linux Foundation Generative AI Policy
+Agentregistry is a project built by humans, for humans. We recognize that the project can be used to enable AI use cases, but we expect that any contributions abide by the [Linux Foundation Generative AI policy](https://www.linuxfoundation.org/legal/generative-ai).
+
+In addition, please:
+
+- Refrain from generating issues, comments, or PR descriptions with AI.
+- Refrain from "vibe coding". AI should be used to assist and accelerate code that you (the human!) would write on your own. You should only submit code that you fully understand and take ownership of.
+- Make sure that you have tested the changes and verify the code works as expected. If you have used AI to help write tests, make sure the tests are useful and are testing the feature correctly.
+- When using (non-trivial) AI assistance, please indicate this.
+
+_These policies ensure the code base is kept at a high level of quality. Additionally, it ensures maintainers do not waste time reviewing low-quality AI-generated code._
+
+
+**Issues or PRs that appear to violate these guidelines may be closed without review.**
+
+## Acknowledgements
+This Code of Conduct is adapted from the Contributor Covenant (http://contributor-covenant.org), version 3.0 available at http://contributor-covenant.org/version/3/0/code_of_conduct/
