@@ -1,0 +1,117 @@
+# Agentregistry Contributor Ladder
+
+This document describes the set of roles individuals may have within the community, the requirements of each role, and the contributor ladder for someone to grow.
+
+* [Contributor Ladder](#contributor-ladder)
+    * [Contributor](#contributor)
+    * [Organization Member](#organization-member)
+    * [Maintainer](#maintainer)
+
+## Contributor Ladder
+
+This contributor ladder outlines the different contributor roles within the project, along with the responsibilities and privileges that come with them. Community members generally start at the first levels of the "ladder" and advance up it as their involvement in the project grows.  Our project members are happy to help you advance along the contributor ladder.
+
+Each of the contributor roles below is organized into lists of three types of things. "Responsibilities" are things that a contributor is expected to do. "Requirements" are qualifications a person needs to meet to be in that role, and "Privileges" are things contributors on that level are entitled to.
+
+### Contributor
+
+A Contributor contributes directly to the project and adds value to it. Contributions need not be code. People at the Contributor level may be new contributors, or they may only contribute occasionally.
+
+* Responsibilities include:
+    * Following the [CNCF CoC](https://github.com/cncf/foundation/blob/main/code-of-conduct.md)
+    * Following the project [contributing guide](CONTRIBUTING.md)
+* Requirements (one or several of the below):
+    * Report issues
+    * Show up at meetings, takes notes
+    * Answer questions from other community members
+    * Submit feedback on issues and PRs
+    * Test releases and patches and submit reviews
+    * Run or help run events
+    * Promote the project in public
+
+### Organization Member
+
+An Organization Member is an established contributor who regularly participates in the project. Organization Members have privileges in the project repositories, and as such are expected to act in the interests of the whole project.
+
+An Organization Member must meet the responsibilities and has the requirements of a Contributor, plus:
+
+* Responsibilities include:
+    * Continues to contribute regularly, as demonstrated by having at least 3 GitHub contributions per year<!-- TODO: add devstats link when available -->.
+* Requirements:
+    * Must have successful contributions to the project, including at least _five_ merged PRs.
+    * Must be member of the [`#agentregistry`](https://cloud-native.slack.com/archives/TODO) and [`#agentregistry-contributors`](https://cloud-native.slack.com/archives/TODO) channels on the [CNCF Slack](https://slack.cncf.io). <!-- TODO: create these Slack channels and update archive IDs -->
+    * Must have [2FA](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa) enabled on your GitHub account.
+* Privileges:
+    * May be assigned Issues and Reviews.
+    * May give commands to CI/CD automation.
+    * May label/triage issues.
+
+To apply to become a member of the agentregistry-dev organization on GitHub, please open a GitHub PR in the community repository that contains the following:
+<!-- TODO: create the membership request PR template at .github/PULL_REQUEST_TEMPLATE/apply_to_be_a_member.md -->
+1. Use the [membership request template](.github/PULL_REQUEST_TEMPLATE/apply_to_be_a_member.md). This template is linked from the default template when you open a PR, or you can paste this URL in your browser `https://github.com/agentregistry-dev/community/compare/main...<my-fork>:<my-branch>?quick_pull=1&title=Request%20org%20membership%20for%20<user>&labels=membership&template=apply_to_be_a_member.md`, replacing:
+    - `<my-fork>:<my-branch>` with your fork/branch name, and
+    - `<user>` with your GitHub username
+<!-- TODO: create org.yaml for the agentregistry-dev organization -->
+2. Add your GitHub username to the list of members (under `orgs.agentregistry-dev.members` and `orgs.agentregistry-dev.teams.org-members.members`) in our [organization file](./org.yaml). Please add your name in the correct alphabetical order to maintain a tidy organization file.
+
+### Maintainer
+
+Maintainers are very established contributors who are responsible for the entire project. As such, they have the ability to approve PRs against any area of the repository or repositories they maintain, and are expected to participate in making decisions about the strategy and priorities of the project.
+
+A Maintainer must meet the responsibilities and requirements of an Organization Member, plus:
+
+* Responsibilities include:
+    * Reviewing at least 3 PRs per year, especially PRs that involve multiple parts of the project
+    * Mentoring other contributors
+    * Determining strategy and policy for the project
+* Requirements
+    * Experience as an Organization Member for at least 3 months
+    * Has reviewed, or helped review, at least 20 Pull Requests
+    * Has at least 20 substantial PRs merged to the codebase
+    * Demonstrates a broad knowledge of the project across multiple areas
+* Additional privileges:
+    * Has GitHub or CI/CD rights to approve pull requests in specific directories
+    * Can recommend and review other contributors to become Maintainers
+    * Represents the project in public as a Maintainer
+    * Has a vote in Maintainer decision-making discussions
+
+<!-- TODO: create the maintainer nomination PR template at .github/PULL_REQUEST_TEMPLATE/nominate_a_maintainer.md -->
+Any current Maintainer may nominate a current Organization Member to become a new Maintainer in one or more repositories, by opening a PR in the community repository using the [maintainer nomination template](.github/PULL_REQUEST_TEMPLATE/nominate_a_maintainer.md). The following requirements must be met before the PR is merged:
+1. Each item in the template checklist must be satisfied.
+2. At least 2 current Maintainers from each relevant repository must approve the PR.
+3. There must be no objections from other maintainers. This can be achieved by either of the following, whichever occurs first:
+    * Leaving the PR open for one week with no objections
+    * Asking at the weekly community meeting whether there are any objections
+
+### Becoming a CODEOWNER
+
+You must already be a Maintainer of agentregistry to become a CODEOWNER.
+
+1. Review at least 5 PRs and author 5 PRs in the repository under the specific CODEOWNERS group
+2. Get nominated by an existing CODEOWNER of that group and update the org.yaml and get a +1 from another CODEOWNER
+
+Additional specific CODEOWNER requirements can be decided by the CODEOWNER group and the community as needed.
+
+## Inactivity
+
+It is important for contributors to be and stay active to set an example and show commitment to the project. Inactivity is harmful to the project as it may lead to unexpected delays, contributor attrition, and a lost of trust in the project.
+
+* Inactivity is measured by:
+    * Periods of no contributions for longer than 12 months
+    * Periods of no communication for longer than 6 months
+* Consequences of being inactive include:
+    * Involuntary removal or demotion
+    * Being asked to move to Emeritus status
+
+## Involuntary Removal or Demotion
+
+Involuntary removal/demotion of a contributor happens when responsibilities and requirements aren't being met. This may include repeated patterns of inactivity, extended period of inactivity, a period of failing to meet the requirements of your role, abusing the CI/CD privileges and/or a violation of the Code of Conduct. This process is important because it protects the community and its deliverables while also opens up opportunities for new contributors to step in.
+
+Involuntary removal or demotion is handled through a vote by a majority of the current Maintainers.
+
+## Stepping Down/Emeritus Process
+
+If and when contributors' commitment levels change, contributors can consider stepping down (moving down the contributor ladder) vs moving to emeritus status (completely stepping away from the project).
+
+<!-- TODO: update with agentregistry Slack channel link when available -->
+Contact the maintainers in our [CNCF slack](https://cloud-native.slack.com/archives/TODO) about changing to Emeritus status, or reducing your contributor level.
