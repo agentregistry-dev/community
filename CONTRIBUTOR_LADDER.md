@@ -18,15 +18,13 @@ Each of the contributor roles below is organized into lists of three types of th
 A Contributor contributes directly to the project and adds value to it. Contributions need not be code. People at the Contributor level may be new contributors, or they may only contribute occasionally.
 
 * Responsibilities include:
-    * Following the [CNCF CoC](https://github.com/cncf/foundation/blob/main/code-of-conduct.md)
-    * Following the project [contributing guide](CONTRIBUTING.md)
+    * Following the [Agentregistry CoC](./CODE-OF-CONDUCT.md)
+    * Following the project [contributing guide](CONTRIBUTING.md) <!-- TODO: create contrib doc -->
 * Requirements (one or several of the below):
     * Report issues
-    * Show up at meetings, takes notes
     * Answer questions from other community members
     * Submit feedback on issues and PRs
     * Test releases and patches and submit reviews
-    * Run or help run events
     * Promote the project in public
 
 ### Organization Member
@@ -39,20 +37,14 @@ An Organization Member must meet the responsibilities and has the requirements o
     * Continues to contribute regularly, as demonstrated by having at least 3 GitHub contributions per year<!-- TODO: add devstats link when available -->.
 * Requirements:
     * Must have successful contributions to the project, including at least _five_ merged PRs.
-    * Must be member of the [`#agentregistry`](https://cloud-native.slack.com/archives/TODO) and [`#agentregistry-contributors`](https://cloud-native.slack.com/archives/TODO) channels on the [CNCF Slack](https://slack.cncf.io). <!-- TODO: create these Slack channels and update archive IDs -->
+    * Must be member of the [`agentregistry discord`](https://discord.gg/Af8bX99dbX) 
+    * Must be a member of the [CNCF Slack](https://slack.cncf.io)
     * Must have [2FA](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa) enabled on your GitHub account.
 * Privileges:
     * May be assigned Issues and Reviews.
     * May give commands to CI/CD automation.
     * May label/triage issues.
 
-To apply to become a member of the agentregistry-dev organization on GitHub, please open a GitHub PR in the community repository that contains the following:
-<!-- TODO: create the membership request PR template at .github/PULL_REQUEST_TEMPLATE/apply_to_be_a_member.md -->
-1. Use the [membership request template](.github/PULL_REQUEST_TEMPLATE/apply_to_be_a_member.md). This template is linked from the default template when you open a PR, or you can paste this URL in your browser `https://github.com/agentregistry-dev/community/compare/main...<my-fork>:<my-branch>?quick_pull=1&title=Request%20org%20membership%20for%20<user>&labels=membership&template=apply_to_be_a_member.md`, replacing:
-    - `<my-fork>:<my-branch>` with your fork/branch name, and
-    - `<user>` with your GitHub username
-<!-- TODO: create org.yaml for the agentregistry-dev organization -->
-2. Add your GitHub username to the list of members (under `orgs.agentregistry-dev.members` and `orgs.agentregistry-dev.teams.org-members.members`) in our [organization file](./org.yaml). Please add your name in the correct alphabetical order to maintain a tidy organization file.
 
 ### Maintainer
 
@@ -113,5 +105,4 @@ Involuntary removal or demotion is handled through a vote by a majority of the c
 
 If and when contributors' commitment levels change, contributors can consider stepping down (moving down the contributor ladder) vs moving to emeritus status (completely stepping away from the project).
 
-<!-- TODO: update with agentregistry Slack channel link when available -->
-Contact the maintainers in our [CNCF slack](https://cloud-native.slack.com/archives/TODO) about changing to Emeritus status, or reducing your contributor level.
+Contact the maintainers in our [`agentregistry discord`](https://discord.gg/Af8bX99dbX) about changing to Emeritus status, or reducing your contributor level.
