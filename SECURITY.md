@@ -5,7 +5,6 @@ Review how the agentregistry project handles the lifecycle of Common Vulnerabili
 
 ### 📨 Where to report
 
-<!-- TODO: The agentregistry-vulnerability-reports@googlegroups.com Google group is not yet set up. -->
 To report a security vulnerability, email the private Google group agentregistry-vulnerability-reports@googlegroups.com.
 
 ### ✅ When to send a report
