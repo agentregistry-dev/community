@@ -1,18 +1,22 @@
-# Agent Registry Community
+<picture>
+  <img alt="agentregistry" src="https://raw.githubusercontent.com/agentregistry-dev/agentregistry/main/img/agentregistry-logo.svg" height="150"/>
+</picture>
 
-Welcome! Agent Registry is excited you are interested in our community.
+# Agentregistry Community
 
-Agent Registry is an open source, cloud-native registry for AI agents. The Agent Registry project provides a centralized platform for discovering, sharing, and managing AI agents across organizations.
+Welcome! Agentregistry is excited you are interested in our community.
 
-This repository contains helpful information regarding the structure and functioning of the Agent Registry community, including how to get involved.
+Agentregistry is an open source, cloud-native catalog and delivery path for MCP servers, agents, and skills.The Agentregistry project provides a centralized platform for discovering, sharing, and managing AI agents across organizations.
+
+This repository contains helpful information regarding the structure and functioning of the Agentregistry community, including how to get involved.
 
 ## Communication Channels
 
-If you're interested in participating with the Agent Registry community, come talk to us!
+If you're interested in participating with the Agentregistry community, come talk to us!
 
 * We are available in [Discord](https://discord.gg/Af8bX99dbX)
 * To report security issues, please follow our [vulnerability disclosure best practices](SECURITY.md).
-* Find more information on the [Agent Registry website](https://agentregistry.dev/).
+* Find more information on the [Agentregistry website](https://aregistry.ai/).
 
 ## Community Meetings
 
