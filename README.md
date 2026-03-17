@@ -1,6 +1,10 @@
-<picture>
-  <img alt="agentregistry" src="https://raw.githubusercontent.com/agentregistry-dev/agentregistry/main/img/agentregistry-logo.svg" height="150"/>
-</picture>
+<div align="center">
+  <picture>
+    <img alt="agentregistry" src="https://raw.githubusercontent.com/agentregistry-dev/agentregistry/main/img/agentregistry-logo.svg" height="150"/>
+  </picture>
+
+  [![Discord][discord-img]][discord]
+</div>
 
 # Agentregistry Community
 
@@ -21,3 +25,12 @@ If you're interested in participating with the Agentregistry community, come tal
 ## Community Meetings
 
 We do not yet have community meetings. [Establishing these meetings](https://github.com/agentregistry-dev/community/issues/7) is on our [roadmap](https://github.com/orgs/agentregistry-dev/projects/3). Please help us deliver this work by either commenting on the issue, or volunteering to establish the meetings.
+
+## Contributing
+
+Review the [contribution guide](CONTRIBUTING.md) to contribute to the agentregistry project.
+
+
+<!-- Badge links -->
+[discord-img]: https://img.shields.io/discord/1435836734666707190?label=Join%20Discord&logo=discord&logoColor=white&color=5865F2
+[discord]: https://discord.gg/HTYNjF2y2t
