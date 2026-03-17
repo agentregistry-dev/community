@@ -10,17 +10,17 @@
 
 Welcome! Agentregistry is excited you are interested in our community.
 
-Agentregistry is an open source, cloud-native catalog and delivery path for MCP servers, agents, and skills.The Agentregistry project provides a centralized platform for discovering, sharing, and managing AI agents across organizations.
+Agentregistry is an open source, cloud-native catalog and delivery path for MCP servers, agents, and skills. The agentregistry project provides a centralized platform for discovering, sharing, and managing AI agents across organizations.
 
-This repository contains helpful information regarding the structure and functioning of the Agentregistry community, including how to get involved.
+This repository contains helpful information regarding the structure and functioning of the agentregistry community, including how to get involved.
 
 ## Communication Channels
 
-If you're interested in participating with the Agentregistry community, come talk to us!
+If you're interested in participating with the agentregistry community, come talk to us!
 
 * We are available in [Discord](https://discord.gg/Af8bX99dbX)
 * To report security issues, please follow our [vulnerability disclosure best practices](SECURITY.md).
-* Find more information on the [Agentregistry website](https://aregistry.ai/).
+* Find more information on the [agentregistry website](https://aregistry.ai/).
 
 ## Community Meetings
 
