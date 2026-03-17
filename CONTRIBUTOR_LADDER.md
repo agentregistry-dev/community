@@ -18,8 +18,8 @@ Each of the contributor roles below is organized into lists of three types of th
 A Contributor contributes directly to the project and adds value to it. Contributions need not be code. People at the Contributor level may be new contributors, or they may only contribute occasionally.
 
 * Responsibilities include:
-    * Following the [Agentregistry CoC](./CODE-OF-CONDUCT.md)
-    * Following the project [contributing guide](CONTRIBUTING.md) <!-- TODO: create contrib doc -->
+    * Following the [Agentregistry CoC](CODE-OF-CONDUCT.md)
+    * Following the project [contributing guide](CONTRIBUTING.md)
 * Requirements (one or several of the below):
     * Report issues
     * Answer questions from other community members
@@ -67,22 +67,12 @@ A Maintainer must meet the responsibilities and requirements of an Organization 
     * Represents the project in public as a Maintainer
     * Has a vote in Maintainer decision-making discussions
 
-<!-- TODO: create the maintainer nomination PR template at .github/PULL_REQUEST_TEMPLATE/nominate_a_maintainer.md -->
 Any current Maintainer may nominate a current Organization Member to become a new Maintainer in one or more repositories, by opening a PR in the community repository using the [maintainer nomination template](.github/PULL_REQUEST_TEMPLATE/nominate_a_maintainer.md). The following requirements must be met before the PR is merged:
 1. Each item in the template checklist must be satisfied.
 2. At least 2 current Maintainers from each relevant repository must approve the PR.
 3. There must be no objections from other maintainers. This can be achieved by either of the following, whichever occurs first:
     * Leaving the PR open for one week with no objections
     * Asking at the weekly community meeting whether there are any objections
-
-### Becoming a CODEOWNER
-
-You must already be a Maintainer of agentregistry to become a CODEOWNER.
-
-1. Review at least 5 PRs and author 5 PRs in the repository under the specific CODEOWNERS group
-2. Get nominated by an existing CODEOWNER of that group and update the org.yaml and get a +1 from another CODEOWNER
-
-Additional specific CODEOWNER requirements can be decided by the CODEOWNER group and the community as needed.
 
 ## Inactivity
 
